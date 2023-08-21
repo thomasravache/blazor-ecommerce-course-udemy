@@ -1,3 +1,4 @@
+global using BlazorEcommerce.Shared; // dessa forma não precisa ficar importando na controller ou no repositories
 using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);
